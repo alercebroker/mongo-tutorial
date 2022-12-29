@@ -34,3 +34,14 @@ onwards). To insert all the data run the following (while the docker container i
 ```bash
 python scripts/populate.py
 ```
+
+## Start the tutorial
+
+To start the tutorial, run:
+
+```bash
+jupyter-lab
+```
+
+A browser tab should be opened and from there you can navigate to the `tutorial` folder, where
+the notebooks are sorted from first to last module.
