@@ -26,6 +26,19 @@ might need to be replaced by:
 docker-compose up -d
 ```
 
+This will create a Docker container with MongoDB running in it, as per the instructions in
+the `docker-compose.yml` file provided here. The `-d` flag allows for it to run in the
+background.
+
+To stop the container, run:
+
+```bash
+docker compose down
+```
+
+As above, depending on your version, you might need to use `docker-compose` instead of
+`docker compose`.
+
 ## Loading data
 
 There are scripts that will load data into the database (used from module 2
